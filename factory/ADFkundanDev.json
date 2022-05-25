@@ -1,0 +1,9 @@
+{
+	"name": "ADFkundanDev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ee8c4f07-cbbc-42cf-a4bc-5542d59f140a",
+		"tenantId": "17b8db93-dd4d-4430-a729-062ad88753f0"
+	}
+}
