@@ -63,7 +63,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "ds_source_adlsgen2",
+						"referenceName": "DS_SOURCE_ADLS",
 						"type": "DatasetReference"
 					}
 				],
