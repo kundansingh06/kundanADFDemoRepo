@@ -69,7 +69,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "ds_sink_adlsgen2",
+						"referenceName": "DS_SINK_ADLS",
 						"type": "DatasetReference"
 					}
 				]

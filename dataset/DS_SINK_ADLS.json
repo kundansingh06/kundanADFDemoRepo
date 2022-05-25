@@ -1,5 +1,5 @@
 {
-	"name": "ds_sink_adlsgen2",
+	"name": "DS_SINK_ADLS",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "LS_AzureDataLakeStorageGen2",
