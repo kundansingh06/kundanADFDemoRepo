@@ -5,10 +5,10 @@
 		"factoryName": {
 			"value": "ADFkundanDev"
 		},
-		"AzureSqlDatabase1_connectionString": {
+		"LS_AzureDataLakeStorageGen2_accountKey": {
 			"value": ""
 		},
-		"LS_AzureDataLakeStorageGen2_accountKey": {
+		"AzureSqlDatabase1_connectionString": {
 			"value": ""
 		},
 		"LS_AzureDatabricks_accessToken": {
