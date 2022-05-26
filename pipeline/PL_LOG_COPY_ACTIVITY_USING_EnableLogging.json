@@ -1,5 +1,5 @@
 {
-	"name": "PL_LOG_COPY_ACTIVITY",
+	"name": "PL_LOG_COPY_ACTIVITY_USING_EnableLogging",
 	"properties": {
 		"activities": [
 			{
