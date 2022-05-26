@@ -2,7 +2,7 @@
 	"name": "DS_SINK_ADLS",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_AzureDataLakeStorageGen2",
+			"referenceName": "LS_ADLS_WITH_KV",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
