@@ -2,7 +2,7 @@
 	"name": "DS_SINK_ADLS",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "LS_ADLS_WITH_KV",
+			"referenceName": "LS_ADLS_WITHOUT_KV",
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
