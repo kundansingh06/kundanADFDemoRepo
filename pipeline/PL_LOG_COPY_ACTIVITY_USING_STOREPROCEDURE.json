@@ -1,5 +1,5 @@
 {
-	"name": "PL_LOG_ACTIVITY",
+	"name": "PL_LOG_COPY_ACTIVITY_USING_STOREPROCEDURE",
 	"properties": {
 		"activities": [
 			{
