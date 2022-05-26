@@ -38,20 +38,6 @@
 						}
 					},
 					"enableStaging": false,
-					"logSettings": {
-						"enableCopyActivityLog": true,
-						"copyActivityLogSettings": {
-							"logLevel": "Info",
-							"enableReliableLogging": true
-						},
-						"logLocationSettings": {
-							"linkedServiceName": {
-								"referenceName": "LS_AzureDataLakeStorageGen2",
-								"type": "LinkedServiceReference"
-							},
-							"path": "container1/sessionLoginPath"
-						}
-					},
 					"translator": {
 						"type": "TabularTranslator",
 						"typeConversion": true,
