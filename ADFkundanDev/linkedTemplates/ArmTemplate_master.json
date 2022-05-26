@@ -7,19 +7,31 @@
 			"metadata": "Data Factory name",
 			"defaultValue": "ADFkundanDev"
 		},
-		"LS_AzureDataLakeStorageGen2_accountKey": {
-			"type": "secureString",
-			"metadata": "Secure string for 'accountKey' of 'LS_AzureDataLakeStorageGen2'"
-		},
-		"AzureSqlDatabase1_connectionString": {
-			"type": "secureString",
-			"metadata": "Secure string for 'connectionString' of 'AzureSqlDatabase1'"
-		},
 		"LS_AzureDatabricks_accessToken": {
 			"type": "secureString",
 			"metadata": "Secure string for 'accessToken' of 'LS_AzureDatabricks'"
 		},
-		"LS_AzureDataLakeStorageGen2_properties_typeProperties_url": {
+		"LS_SQLDB_WITHOUT_KB_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'LS_SQLDB_WITHOUT_KB'"
+		},
+		"LS_ADLS_WITHOUT_KV_accountKey": {
+			"type": "secureString",
+			"metadata": "Secure string for 'accountKey' of 'LS_ADLS_WITHOUT_KV'"
+		},
+		"LINK_KV_TO_ADF_properties_typeProperties_baseUrl": {
+			"type": "string",
+			"defaultValue": "https://kv-kundan-dev.vault.azure.net/"
+		},
+		"LS_SQLDB_WITH_KV_properties_typeProperties_connectionString_secretName": {
+			"type": "string",
+			"defaultValue": "sqldbconn"
+		},
+		"LS_ADLS_WITHOUT_KV_properties_typeProperties_url": {
+			"type": "string",
+			"defaultValue": "https://storagekundanadls.dfs.core.windows.net"
+		},
+		"LS_ADLS_WITH_KV_properties_typeProperties_url": {
 			"type": "string",
 			"defaultValue": "https://storagekundanadls.dfs.core.windows.net"
 		},
@@ -50,17 +62,26 @@
 					"factoryName": {
 						"value": "[parameters('factoryName')]"
 					},
-					"LS_AzureDataLakeStorageGen2_accountKey": {
-						"value": "[parameters('LS_AzureDataLakeStorageGen2_accountKey')]"
-					},
-					"AzureSqlDatabase1_connectionString": {
-						"value": "[parameters('AzureSqlDatabase1_connectionString')]"
-					},
 					"LS_AzureDatabricks_accessToken": {
 						"value": "[parameters('LS_AzureDatabricks_accessToken')]"
 					},
-					"LS_AzureDataLakeStorageGen2_properties_typeProperties_url": {
-						"value": "[parameters('LS_AzureDataLakeStorageGen2_properties_typeProperties_url')]"
+					"LS_SQLDB_WITHOUT_KB_connectionString": {
+						"value": "[parameters('LS_SQLDB_WITHOUT_KB_connectionString')]"
+					},
+					"LS_ADLS_WITHOUT_KV_accountKey": {
+						"value": "[parameters('LS_ADLS_WITHOUT_KV_accountKey')]"
+					},
+					"LINK_KV_TO_ADF_properties_typeProperties_baseUrl": {
+						"value": "[parameters('LINK_KV_TO_ADF_properties_typeProperties_baseUrl')]"
+					},
+					"LS_ADLS_WITHOUT_KV_properties_typeProperties_url": {
+						"value": "[parameters('LS_ADLS_WITHOUT_KV_properties_typeProperties_url')]"
+					},
+					"LS_SQLDB_WITH_KV_properties_typeProperties_connectionString_secretName": {
+						"value": "[parameters('LS_SQLDB_WITH_KV_properties_typeProperties_connectionString_secretName')]"
+					},
+					"LS_ADLS_WITH_KV_properties_typeProperties_url": {
+						"value": "[parameters('LS_ADLS_WITH_KV_properties_typeProperties_url')]"
 					}
 				}
 			},

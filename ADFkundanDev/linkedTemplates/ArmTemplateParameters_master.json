@@ -5,16 +5,25 @@
 		"factoryName": {
 			"value": "ADFkundanDev"
 		},
-		"LS_AzureDataLakeStorageGen2_accountKey": {
-			"value": ""
-		},
-		"AzureSqlDatabase1_connectionString": {
-			"value": ""
-		},
 		"LS_AzureDatabricks_accessToken": {
 			"value": ""
 		},
-		"LS_AzureDataLakeStorageGen2_properties_typeProperties_url": {
+		"LS_SQLDB_WITHOUT_KB_connectionString": {
+			"value": ""
+		},
+		"LS_ADLS_WITHOUT_KV_accountKey": {
+			"value": ""
+		},
+		"LINK_KV_TO_ADF_properties_typeProperties_baseUrl": {
+			"value": "https://kv-kundan-dev.vault.azure.net/"
+		},
+		"LS_SQLDB_WITH_KV_properties_typeProperties_connectionString_secretName": {
+			"value": "sqldbconn"
+		},
+		"LS_ADLS_WITHOUT_KV_properties_typeProperties_url": {
+			"value": "https://storagekundanadls.dfs.core.windows.net"
+		},
+		"LS_ADLS_WITH_KV_properties_typeProperties_url": {
 			"value": "https://storagekundanadls.dfs.core.windows.net"
 		},
 		"containerUri": {
