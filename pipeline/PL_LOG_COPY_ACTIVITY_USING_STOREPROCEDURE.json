@@ -31,7 +31,6 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"storedProcedureName": "[dbo].[usp_adfPipelineExecution]",
 					"storedProcedureParameters": {
 						"adfName": {
 							"value": {
@@ -71,7 +70,7 @@
 					}
 				},
 				"linkedServiceName": {
-					"referenceName": "AzureSqlDatabase1",
+					"referenceName": "LS_SQLDB_WITHOUT_KB",
 					"type": "LinkedServiceReference"
 				}
 			}
